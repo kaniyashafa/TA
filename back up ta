@@ -1,0 +1,54 @@
+ <!-- Sidebar -->
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav" style="margin-left:0;">
+                    <li class="sidebar">
+                            <a href="#menu-toggle"  id="menu-toggle"> <i class="fa fa-bars " style="font-size:20px !Important;" aria-hidden="true" aria-hidden="true"></i>  &nbsp; </a>
+                    </li>
+                    <li>
+                        <a target="iframe_a" style="color: white;"><i class="bi bi-grid"></i></i>
+                        
+                            <span style="margin-left:10px;">Dashboard</span>  </a>
+                        <ul style="color: white; list-style-type: none; margin-left: 10px;">
+                          <li><a target="iframe_a" href="lihat_admin.php?id_admin=<?php echo"$id_admin"; ?>">Lihat Profile</a></li>
+                          <li><a target="iframe_a" href="up_admin.php?id_admin=<?php echo"$id_admin"; ?>">Update Profile</a></li>
+                           <li><a target="iframe_a" href="add_admin.php">Tambah HRD</a></li>
+                          <li><a target="iframe_a" href="pass.php?id_admin=<?php echo"$id_admin"; ?>">Ganti Password</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                    <a target="iframe_a" style="color: white;"><i class="fa fa-file-text-o" aria-hidden="true"></i><span style="margin-left:10px;">Seleksi Calon</span>  </a>
+                    <ul style="color: white; list-style-type: none; margin-left: 10px;">
+                          <li><a target="iframe_a" href="add_soal.php">Tambah Soal</a></li>
+                          <li><a target="iframe_a" href="view_soal.php">Lihat Soal</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a target="iframe_a" style="color: white;"><i class="fa fa-user-o" aria-hidden="true"></i></i></i> <span style="margin-left:10px;">Profile Calon</span>  </a>
+                        <ul style="color: white; list-style-type: none; margin-left: 10px;">
+                          <li><a target="iframe_a" href="view_plmr.php">List Pelamar</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a target="iframe_a" style="color: white;"><i class="bi bi-info-circle"></i></i> <span style="margin-left:10px;">Pusat Bantuan</span>  </a>
+                        <ul style="color: white; list-style-type: none; margin-left: 10px;">
+                          <li><a target="iframe_a" href="add_lwg.php">Tambah Karir</a></li>
+                          <li><a target="iframe_a" href="view_lwg.php">Lihat Karir</a></li>
+                        </ul>
+                    </li>
+
+                    
+                    <li>
+                        <a target="iframe_a" style="color: white;"><i class="fa fa-sign-out" aria-hidden="true"></i> <span style="margin-left:10px;">Keluar Akun</span>  </a>
+                        <ul style="color: white; list-style-type: none; margin-left: 10px;">
+                          <li><a target="iframe_a" href="add_lwg.php">Tambah Karir</a></li>
+                          <li><a target="iframe_a" href="view_lwg.php">Lihat Karir</a></li>
+                        </ul>
+                    </li>
+                   
+                   
+                </ul>
+            </div>
+<!-- end menu sidebar -->
