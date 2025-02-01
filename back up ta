@@ -174,3 +174,196 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
 </html>
+
+<style>
+        body {
+            display: flex;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .login-left {
+            flex: 1;
+            padding: 20px;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .login-left h1 {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .login-left p {
+            margin-bottom: 30px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        input[type="text"], input[type="password"] {
+            height: 48px;
+            width: 470px;
+            padding: 10px;
+            font-size: 14px;
+            margin-top: 10px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+
+        button {
+            height: 48px;
+            width: 470px;
+            padding: 10px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .login-right {
+            flex: 1;
+            background-image: url('bootstrap4/img/Bg spalsh screen.png');
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-right h1 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .login-right p {
+            font-size: 16px;
+            text-align: center;
+            max-width: 300px;
+        }
+
+        .login-right img {
+            width: 80px;
+            margin-bottom: 20px;
+        }
+    </style>
+
+<style>
+        body {
+            display: flex;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .login-left {
+            flex: 1;
+            padding: 20px;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .login-left h1 {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .login-left p {
+            margin-bottom: 30px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        input[type="text"], input[type="password"] {
+            height: 48px;
+            width: 470px;
+            padding: 10px;
+            font-size: 14px;
+            margin-top: 10px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+
+        button {
+            height: 48px;
+            width: 470px;
+            padding: 10px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .login-right {
+            flex: 1;
+            background-image: url('bootstrap4/img/Bg spalsh screen.png');
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-right h1 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .login-right p {
+            font-size: 16px;
+            text-align: center;
+            max-width: 300px;
+        }
+
+        .login-right img {
+            width: 80px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-left">
+        <h1>Login akun</h1>
+        <p>Masuk ke akun admin untuk kelola seleksi pengurus OSIS dengan mudah dan cepat.</p>
+        <form action="" method="POST">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" placeholder="Masukkan Username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" placeholder="Masukkan Password" required>
+            </div>
+            <input class="btn btn-primary btn-block login" name="login" type="submit" value="Log In"/>
+        </form>
+    </div>
+<div class="login-right">
+        <img src="bootstrap4/img/Logo Scola.png" alt="Logo" class="Logo" style="width: 564px; height: auto;">
+        <p>Bergabung, Berkembang, Bawa Perubahan!</p>
+    </div>
